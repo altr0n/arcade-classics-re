@@ -27,9 +27,9 @@
   * It looks like this gets mapped into memory potentially at 0xD100?
   * 0x7D100 - 0x7F900
 * SPI Pinout
- * ![SPI Pinout](https://i.imgur.com/3yCf6k4.jpg)
+![SPI Pinout](https://i.imgur.com/3yCf6k4.jpg)
 * Generic SPI Pinout
- * ![Generic SPI](https://www.arduino.cc/en/uploads/Tutorial/at25hp512_pins2.jpg)
+![Generic SPI](https://www.arduino.cc/en/uploads/Tutorial/at25hp512_pins2.jpg)
 ## Software
 * The software (ROMS) present on the cabinets are all located within the SPI flash
 * The ROMs appear to be almost identical to the original NES Roms with multiple modifications made
@@ -38,6 +38,6 @@
 
 ## Modifications
 * The ROM can be replaces with another NES ROM, and while the SoC seems to run it properly, the CHR tables are broken somewhere, this will take further reversing
-* Example 1:
- * ![Tetris Running on Cab](https://i.imgur.com/1w1UAbx.jpg)
+* Example 1 (Tetris somewhat running on the Cabinet):
+![Tetris Running on Cab](https://i.imgur.com/1w1UAbx.jpg)
 
